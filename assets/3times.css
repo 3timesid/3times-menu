@@ -7,8 +7,9 @@
 body{
 	background-color: var(--3t-bg);
 	background-image:url('../assets/img/damask-pattern-5.png');
+	background-position: center top;
 	font-size: 1.25rem;
-		font-family: Fraunces, serif;
+	font-family: Fraunces, serif;
 }
 
 .logo{
@@ -32,4 +33,19 @@ body{
 
 .menu-price{
 	text-align:right;
+}
+
+
+.menu-description{
+	margin-top: -1rem;
+	font-size: 75%;
+	opacity:0.6;
+}
+
+.tight-text{
+	letter-spacing: -1px;
+}
+
+.sp-pad{
+	padding-top: 3rem;
 }
