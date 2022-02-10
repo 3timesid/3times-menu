@@ -12,6 +12,23 @@ body{
 	font-family: Fraunces, serif;
 }
 
+.icon-text{
+	color: white;
+	text-decoration:none;
+
+}
+
+.icon-text:hover{
+	color: white;
+	opacity:0.8;
+}
+
+.adjust-icon{
+	margin-bottom:2px;
+	height:24px;
+	width:24px;
+}
+
 .logo{
 	width:50%;
 	margin-bottom:2rem;
@@ -38,7 +55,6 @@ body{
 
 .menu-description{
 	margin-top: -1rem;
-	font-size: 75%;
 	opacity:0.6;
 }
 
@@ -48,4 +64,9 @@ body{
 
 .sp-pad{
 	padding-top: 3rem;
+}
+
+.text-75,
+.menu-description{
+	font-size:75%;
 }
