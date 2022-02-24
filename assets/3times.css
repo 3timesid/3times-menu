@@ -15,7 +15,8 @@ body{
 .icon-text{
 	color: white;
 	text-decoration:none;
-
+	display:block;
+	width:100%;
 }
 
 .icon-text:hover{
